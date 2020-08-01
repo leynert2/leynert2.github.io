@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+body{
+    background: #D6D6D6;
+}
+
+nav{
+    width: 1920px;
+    margin: 30px auto;
+    background: #404040;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+nav ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    margin-left: 2px;
+    display: block;
+    padding: 15px 45px;
+    padding-left: center;
+    padding-right: 120px;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.submenu{
+    position: absolute;
+    margin-left: 0;
+    background: #E53030;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    margin-left: 1px;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu{
+    margin-left: 400px;
+    margin-bottom: 0px;
+}
+
+img {
+    width: 1920px; 
+    height: 500px;
+    margin-top: 0px;
+}
+
+nav ul li:hover {
+    background:#000000;
+    padding-top: 0px;
+}
+
+.submenu li:hover {
+    background-color: black;
+}
+
+
+#rectangle1 {
+    border: solid thick black;
+    border-radius: 1ex;
+    border-width: 6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin-top: 10px;
+    margin-left: 63px;
+    width: 400px;
+    height: 230px;
+    float: left;
+}
+
+#rectangle2 {
+    border: solid thick black;
+    border-radius: 1ex;
+    border-width: 6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin-top: 10px;
+    margin-left: 63px;
+    width: 400px;
+    height: 230px;
+    float: left;
+}
+
+#rectangle3 {
+    border: solid thick black;
+    border-radius: 1ex;
+    border-width: 6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin-top: 10px;
+    margin-left: 63px;
+    width: 400px;
+    height: 230px;
+    float: left;
+
+}
+
+#rectangle4 {
+    border: solid thick black;
+    border-radius: 1ex;
+    border-width: 6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin-top: 10px;
+    margin-left: 63px;
+    width: 400px;
+    height: 230px;
+    float: left;
+
+}
+
+#otros {
+    width: 388px;
+    height: 190px;
+}
+
+#aseo {
+    width: 388px;
+    height: 190px;
+}
+
+#comestibles {
+    width: 388px;
+    height: 190px;
+}
+
+#bebidas {
+    width: 388px;
+    height: 190px;
+}
+
+
